@@ -1,0 +1,412 @@
+/* Header styles*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 0 60px;
+    
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header ul li{
+    padding: 20px 120px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: yellow;
+}
+
+/*titlename styles*/
+.name{
+    background-color: rgba(171, 163, 26, 0.825);
+    padding: 0 60px;
+}
+.name .all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.name .search{
+    margin: 20px 0;
+}
+.name .search i{
+    font-size: 15px;
+}
+.name .search input{
+    padding: 12px;
+}
+.name .search button{
+    padding: 12px;
+    margin-left: -5px;
+}
+.name .all .title{
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.name .all .title h1{
+    font-size: 60px;
+}
+.name .all .title span{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.name .all .icons a{
+    font-size: 25px;
+    padding:20px ;
+}
+.name .all .icons i{
+    margin: 30px 0;
+}
+.name .icons i:hover{
+    color: green;
+}
+/*navbar styles*/
+nav {
+    padding: 0 60px;
+    background-color: aquamarine;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 30px 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+nav .cart{
+    font-size: 25px;
+    padding: 12px;
+    margin: 10px;
+}
+nav ul li a:hover{
+    color: black;
+}
+nav .dropdown .dropdown-menu a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+nav .dropdown .dropdown-menu a:hover{
+    background-color: gray;
+    color: black;
+}
+nav .dropdown .dropdown-menu{
+    position: absolute;
+    display: none;
+    background-color: black ;
+    font-size: bold;
+    width: 220px;
+    padding: 10px;
+    box-shadow: 0 0 20px white;
+    border-radius: 10px;
+}
+nav .dropdown:hover .dropdown-menu{
+    display: block;
+}
+nav .dropdown {
+    position: relative;
+}
+/*banner styles*/
+
+.banner {
+    background-image: url(./images/img1.webp);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 500px;
+}
+.banner .content{
+    padding: 200px;
+}
+/*collection styles*/
+
+#section1 .title{
+    padding: 40px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#section1 .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 60px;
+    background-color: rgba(84, 82, 84, 0.697);
+}
+#section1 .card{
+    width: 22%;
+    margin: 0 20px;
+}
+#section1 .card-body img{
+    width: 100%;
+    height: 300px;
+}
+#section1 .card .card-body{
+    text-align: center;
+    background-color: rgba(238, 238, 237, 0.897);
+    font-size: 15px;
+}
+#section1 .card .card-body .card-footer a{
+    padding: 10px auto;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#section1 .card .card-footer{
+    padding: 20px 0;
+    background-color: black;
+    text-align: center;
+}
+#section1 .card .card-footer a{
+    color: white;
+    text-decoration: none;
+}
+#section1 .card .card-footer:hover{
+    background-color: rgb(104, 10, 10);
+}
+#section1 .card h5{
+    font-size: 20px;
+    padding: 10px 0;
+}
+#section1 .card:hover{
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+/*details start*/
+
+#section2{
+    background-color: aliceblue;
+
+}
+#section2 .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
+}
+#section2 .row .col{
+    width: 24%;
+    padding:20px 40px ;
+    background-color: rgba(255, 166, 0, 0.699);
+    margin: 20px auto;
+    border-radius: 100px;
+
+}
+#section2 .row .col i{
+    font-size: 30px;
+    padding: 10px 0;
+    color: rgb(171, 20, 45);
+}
+#section2 .row .col h4{
+    padding: 10px 0;
+    font-size: 18px;
+    color: red;
+}
+/*footer styles*/
+footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
+    background-color: black;
+    color: white;
+}
+footer .row .col{
+    width: 25%;
+    padding: 30px 20px;
+}
+footer .row .col h2{
+    padding: 20px 0;
+    color: rgba(0, 255, 255, 0.645);
+}
+footer .row .col h3{
+    padding: 15px 0;
+    color: wheat;
+}
+footer .row .col p{
+    padding: 5px 0;
+}
+footer .row .col ul li{
+    padding: 5px 0;
+}
+footer .row .col input{
+    padding: 10px 0;
+    margin: 10px 0;
+}
+footer .row .col button{
+    padding: 5px 10px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -0px;
+    border: none;
+}
+footer .row i{
+    color: rgb(244, 130, 8);
+    font-size: 30px;
+}
+footer .row1{
+    background-color: black;
+    color: white;
+    padding: 0 60px;
+}
+footer .row1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+footer .row1 ul li{
+    padding: 0 20px;
+}
+footer .row1 .last{
+    margin-left: auto;
+}
+footer .row1 i{
+    color: rgb(244, 130, 8);
+    font-size: 20px;
+}
+footer .copyright{
+    text-align: center;
+    padding: 20px 0;
+    
+}
+footer .copyright span{
+    color: yellow;
+}
+footer .copyright i{
+    color: white;
+}
+@media (max-width:576px){
+    header ul li{
+        width: 100%;
+        padding: 10px 0;
+    }
+    header{
+        padding: 0 20px;
+    }
+    .name {
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav{
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li{
+        padding: 10px 0 ;
+        margin: 10px;
+    }
+    nav .dropdown .dropdown-menu{
+        width: 100px;
+    }
+    nav .cart{
+        padding: 0;
+        margin: 32px 0;
+    }
+    .banner .content {
+        width: 100%;
+        padding: 250px 50px;
+    }
+    #section .row{
+        padding: 0 20px;
+    }
+    #section1 .row .card{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #section2 .row{
+        padding: 0 20px;
+    }
+    #section2 .row .col{
+        width: 100%;
+    }
+    footer .row{
+        padding: 0 20px;
+    }
+    footer .row .col{
+        width: 100%;
+    }
+    footer .row1{
+        width: 100%;
+        padding: 0 20px;
+    }
+    footer .copyright{
+        width: 100%;
+    }
+}
+@media (min-width:576px) and (max-width:1300px){
+    header ul li{
+        width: 100%;
+        padding: 20px 0;
+    }
+    header{
+        padding: 0 20px;
+    }
+    .name {
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav{
+        width: 100%;
+        padding: 10px;
+    }
+    nav ul li{
+        padding: 10px 0 ;
+        margin: 30px;
+    }
+    nav .dropdown .dropdown-menu{
+        width: 100px;
+    }
+    nav .cart{
+        padding: 0;
+        margin: 32px 0;
+    }
+    .banner .content {
+        width: 100%;
+        padding: 250px 50px;
+    }
+    #section .row{
+        padding: 0 20px;
+    }
+    #section1 .row .card{
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    #section2 .row{
+        padding: 0 20px;
+    }
+    #section2 .row .col{
+        width: 45%;
+    }
+    footer .row{
+        padding: 0 20px;
+    }
+    footer .row .col{
+        width: 50%;
+    }
+    footer .row1{
+        width: 100%;
+        padding: 0 20px;
+    }
+    footer .copyright{
+        width: 100%;
+    }
+}
